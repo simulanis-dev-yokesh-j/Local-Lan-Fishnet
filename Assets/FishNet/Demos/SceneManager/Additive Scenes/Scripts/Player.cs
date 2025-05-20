@@ -36,7 +36,7 @@ namespace FishNet.Demo.AdditiveScenes
             }
 
             //Snap to current waypoint.
-            transform.position = _wayPoints[0].transform.position + _goalOffset;
+          //  transform.position = _wayPoints[0].transform.position + _goalOffset;
             //Set goal to next waypoint.
             _goalIndex = 1;
         }
